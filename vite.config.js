@@ -2,12 +2,11 @@ import { resolve } from "path"
 import { defineConfig } from "vite"
 
 export default defineConfig(({ mode }) => {
-    const BASE_URL = mode == "development" ? "/" : "/vite-multipge-test/"
+    const BASE_URL = mode == "development" ? "/" : "/vite-multipage-test/"
 
     return {
         base: BASE_URL,
         root: "src",
-        publicDir: "public",
         envDir: "../",
         build: {
             outDir: "../dist",
