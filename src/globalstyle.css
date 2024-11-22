@@ -1,0 +1,46 @@
+body {
+    color: white;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: white;
+}
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 100px;
+    background-color: rgb(5, 5, 5);
+}
+
+header #title {
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+
+
+main {
+    padding: 0 300px;
+}
+
+
+
+footer {
+    margin-top: 100px;
+    padding: 50px 200px;
+    background-color: rgb(5, 5, 5);
+}
