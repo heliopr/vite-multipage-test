@@ -1,5 +1,5 @@
-import header from "./components/header.html?raw"
-import footer from "./components/footer.html?raw"
+import header from "/components/header.html?raw"
+import footer from "/components/footer.html?raw"
 
 console.log("global")
 
